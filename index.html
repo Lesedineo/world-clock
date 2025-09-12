@@ -7,37 +7,41 @@
     <title>World clock</title>
   </head>
   <body>
-    <div class="clocks">
-    <h1>World clock</h1>
-    <select id="city">
-      <option value="America/New_York">New York</option>
-      <option value="Europe/London">London</option>
-      <option value="Asia/Tokyo">Tokyo</option>
-      <option value="Australia/Sydney">Sydney</option>
-      <option value="Africa/Johannesburg">Johannesburg</option>
-      <option value="America/Los_Angeles">Los Angeles</option>
-      <option value="Europe/Berlin">Berlin</option>
+    <div class="container">
+      <h1>World clock</h1>
+      <select id="city">
+        <option value="America/New_York">New York</option>
+        <option value="Europe/London">London</option>
+        <option value="Asia/Tokyo">Tokyo</option>
+        <option value="Australia/Sydney">Sydney</option>
+        <option value="Africa/Johannesburg">Johannesburg</option>
+        <option value="America/Los_Angeles">Los Angeles</option>
+        <option value="Europe/Berlin">Berlin</option>
       </select>
 
       <div class="city-time">
-        <h2>New york</h2>
-        <div class="date"> Thursday 11 september2025</div>
-        <div class="time">10:30:45 pm</div>
+        <div>
+          <h2>New york</h2>
+          <div class="date">Thursday 11 september 2025</div>
+        </div>
+        <div class="time">10:30:45 <small>PM</small></div>
       </div>
 
-        <div class="city-time">
-            <h2>London</h2>
-            <div class="date"> Friday 12 september2025</div>
-            <div class="time">3:30:45 am</div>
-
+      <div class="city-time">
+        <div>
+          <h2>London</h2>
+          <div class="date">Friday 12 september 2025</div>
+        </div>
+        <div class="time">3:30:45 <small>AM</small></div>
+      </div>
     </div>
+
     <footer>
-      This was coded by Lesedi Molale and is
+      <strong>This was coded by Lesedi Molale and is</strong>
       <a href="https://github.com/LesediNeo/world-clock" target="_blank"
         >open source on GitHub</a
       >
     </footer>
     <script src="javascript/index.js"></script>
-  
-</body>
+  </body>
 </html>

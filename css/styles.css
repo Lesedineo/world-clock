@@ -1,8 +1,59 @@
+body {
+  background-image: url("../clocks.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+}
+
 h1 {
-  color: blue;
+  color: rgb(45, 40, 40);
+  text-align: center;
 }
 footer {
-  background-color: #f1f1f1;
-  padding: 10px;
+  padding: 3px;
   text-align: center;
+  font-size: 20px;
+  color: orangered;
+}
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: rgba(255, 255, 255, 0.3); /* semi-transparent for blur */
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(8px); /* for Safari */
+  padding: 40px;
+  border-radius: 10px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+.city-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+.date {
+  margin-bottom: 8px;
+}
+h2 {
+  margin: 0;
+  font-size: 28px;
+}
+.date {
+  opacity: 0.7;
+}
+.time {
+  font-size: 36px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 24px;
 }
