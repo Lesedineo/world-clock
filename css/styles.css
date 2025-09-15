@@ -16,6 +16,9 @@ footer {
   font-size: 20px;
   color: orangered;
 }
+footer a {
+  color: orangered;
+}
 .container {
   max-width: 600px;
   margin: 60px auto;
@@ -56,4 +59,12 @@ h2 {
 }
 .time small {
   font-size: 24px;
+}
+.all-ctites {
+  text-align: center;
+  color: black;
+  font-size: 16px;
+}
+.all-ctites a {
+  color: black;
 }
